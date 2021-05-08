@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.binduhait.vermiculigame">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DetailActivity"
+            android:label="Details"
+            android:parentActivityName=".AffectedCountries"
+            android:theme="@style/AppTheme_covid">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AffectedCountries" />
+        </activity>
+
+        <activity android:name=".AffectedCountries"
+            android:label="Affected Countries"
+            android:parentActivityName=".CovidActivity"
+            android:theme="@style/AppTheme_covid">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CovidActivity" />
+        </activity>
+
+        <activity
+            android:name=".CovidActivity"
+            android:label="Covid-19"
+            android:parentActivityName=".StartActivity"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity android:name=".HowActivity" />
+
+        <activity android:name=".ResultActivity" />
+
+        <activity android:name=".ShopActivity" />
+
+        <activity android:name=".MainActivity" />
+
+        <activity android:name=".StartActivity"/>
+
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TheRmos</string>
+    <string name="how_to_play">"how to play ?\n\n1. If you touch and hold the screen than 'pika' goes up and you are not touch the screen 'pika' automatically goes down.\n\n2. your task is that hit the diamond and food for maximize your score and escape the two dangerous enemy's for elimination.\n\nThanks for download and play the wonderful game and hopefully this game entertained you."</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

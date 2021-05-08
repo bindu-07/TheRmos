@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".HowActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/cycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_autoPlay="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-50dp"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/stay_at_home" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="25dp"
+        android:text="how to play ?\n\n1. If you touch and hold the screen than 'pika' goes up and you are not touch the screen 'pika' automatically goes down.\n\n2. your task is that hit the diamond, gold and food for maximize your score and escape the two dangerous enemy's for elimination.\n\nThanks for download and play the wonderful game and hopefully this game entertained you."
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:text="Bindu Hite"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="70dp"/>
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/ic_action_home" />
+
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+
+
+
+    -<style parent="Theme.AppCompat.Light.NoActionBar" name="AppTheme">
+
+    <!-- Customize your theme here. -->
+
+
+    <item name="colorPrimary">@color/colorPrimary</item>
+
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+    <item name="colorAccent">@color/colorAccent</item>
+
+</style>
+
+    <style name="AppTheme_covid" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#024265</item>
+        <item name="colorPrimaryDark">#024265</item>
+        <item name="colorAccent">#05af9b</item>
+    </style>
+
+</resources>
